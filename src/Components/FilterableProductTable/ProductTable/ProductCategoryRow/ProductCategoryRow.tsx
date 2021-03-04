@@ -7,6 +7,8 @@ type ProductCategoryRowType = {
 
 function ProductCategoryRow(props: ProductCategoryRowType) {
     return(
-        <div className={s.productCategoryRow}>{props.category}</div>
+        <div className={s.ProductCategoryRow}>{props.category}</div>
     );
 }
+
+export default ProductCategoryRow;

@@ -8,9 +8,11 @@ type ProductRowType = {
 
 function ProductRow(props: ProductRowType) {
     return(
-        <div className={s.productRow}>
-            <div className={s.productRow__productName}>{props.name}</div>
-            <div className={s.productRow__productPrice}>{props.price}</div>
+        <div className={s.ProductRow}>
+            <div className={s.ProductRow__ProductData}>{props.name}</div>
+            <div className={s.ProductRow__ProductData}>{props.price}</div>
         </div>
     );
 }
+
+export default ProductRow;
