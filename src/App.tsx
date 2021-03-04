@@ -11,7 +11,14 @@ function App() {
   );
 }
 
-let products: object = [
+export type ObjectType = {
+  category: string;
+  price: string;
+  stocked: boolean;
+  name: string;
+}
+
+let products: Array<ObjectType> = [
   {category: "Sporting Goods", price: "$49.99", stocked: true, name: "Football"},
   {category: "Sporting Goods", price: "$9.99", stocked: true, name: "Baseball"},
   {category: "Sporting Goods", price: "$29.99", stocked: false, name: "Basketball"},

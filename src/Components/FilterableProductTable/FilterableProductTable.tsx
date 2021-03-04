@@ -1,10 +1,11 @@
 import React from "react";
+import { ObjectType } from "../../App";
 import s from './FilterableProductTable.module.css';
 import ProductTable from "./ProductTable/ProductTable";
 import SearchBar from "./SearchBar/SearchBar";
 
 type FilterableProductTableType = {
-    products: object;
+    products: Array<ObjectType>;
 }
 
 function FilterableProductTable(props: FilterableProductTableType) {

@@ -4,3 +4,7 @@
     display: grid;
     grid-template-columns: 3fr 7fr;
 }
+
+.ProductRow_OutOfStock {
+    color: red;
+}
